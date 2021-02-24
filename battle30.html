@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Pablo Duarte</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+        <header>
+            <div class="img">
+                <img src="img/logo.jpg">
+            </div>
+            <div class="nav">
+                <a href="blog.html">Batalla del 19 Marzo</a>
+                <a href="battle30.html">Batalla del 30 de marzo</a>
+                <a href="completa.html">Test - del 19 de marzo</a>
+                <a href="completa30.html">Test - del 30 de marzo</a>
+            </div>
+        </header>
+        <div class="container">
+        <main class="principal">
+            <article>
+                <div class="banner_title">
+                    <h1>Batalla del 30   de Marzo</h1>
+                    <img  id="slider">
+                    
+                </div>
+                <p>
+                    La batalla del 30 de marzo o batalla de Santiago fue la segunda batalla posterior a la Guerra de la Independencia Dominicana y se libró el 30 de marzo de 1844, en Santiago. En esta batalla, el general José María Imbert, al mando de una parte del ejército del norte, derrotó al general Jean-Louis Pierrot, quien comandaba las tropas del ejército haitiano en una relación numérica superior a su favor. 
+                </p>
+                <p>
+                    Antes de iniciar la batalla en Santiago, los dominicanos se aprestaron a realizar preparativos consistentes en obtener dinero para la compra de armas. Con la asistencia de Matías Ramón Mella y Pedro de Mena, se lograron donativos de muchas personas pudientes de Santo Domingo. En Santiago, personajes como Ángel Daniel, Juan Luis Bidó, Ramón Bidó y otros dominicanos también se unieron a la causa.
+
+                    Comenzaron a llegar refuerzos a Santiago desde Baní al mando del coronel Ramón Santana. El general Francisco Antonio Salcedo avanzó hasta Talanquera y Escalante con el propósito de contener el avance militar haitiano hacia Santiago. Este militar estableció su cuartel general en Escalante, cerca de Guayubín, Montecristi. Las tropas de Pierrot avanzaron rápidamente y este tomó a Dajabón el 23 de marzo de 1844 asi que  un comerciante llamado teodor stanly le aviso a las autoridades de santigo sobre la venida de la invasion haitiana asi que el 27 de marzo fue llamado alguien que destaco mucho en esta batalla que fue el general jose maria imbert y otros oficiales
+            </p>
+                <p>
+                    Ya El 29 de marzo, al atardecer, el general Pierrot dividió sus tropas. Se acercó a la ciudad de Santiago de los Caballeros con más de 2,000 soldados en cada columna.
+                    pero lo que el no sabia es que antes de la batalla jose maria imbert hizo un buen manejo del terreno donde se iba a combatir principalmente en el fuerte “Dios, Patria y Libertad”,  y inicio la batalla El enemigo atacó y fue embestido  en el fuerte “Dios, Patria y Libertad” frente a la sabana de Santiago de los Caballeros.
+
+                </p>
+                <p>
+
+                    El 30 de marzo de 1844,5​ los haitianos atacaron y fueron embestidos por el general José María Imbert y el comandante Achilles Michel en los fuertes "Dios", "Patria" y "Libertad", frente a la sabana de Santiago de los Caballeros. Los haitianos contraatacaron y fueron rechazados por la artillería dominicana y la fusilería de Fernando Valerio. El ejército haitiano lanzó un ataque desesperado y fue vencido con los cañones del fuerte "Dios, Patria y Libertad" y por la infantería de Fernando Valerio López. El ejército de Jean-Louis Pierrot se vio obligado a retroceder, dándole la victoria al ejército dominicano liderado por José María Imbert.
+
+                    Los haitianos volvieron a contraatacaron y fueron rechazados por la artillería dominicana y la fusilería de Fernando Valerio López. viendose en esta situacion los haitianos lanzaron un ataque desesperado  y fueron vencidos con los cañones del fuerte “Dios, Patria y Libertad” y por la infantería de Fernando Valerio López
+                    
+                    
+                </p>
+           
+            </article>
+            <p><b>Nota:</b>Tras leer la batalla del 30 de marzo puedes probar <br>
+                tus conocimientos con el siguiente test <a href="completa30.html">Batalla 30 de marzo</a></p>
+        </main>
+    
+
+    </div>
+
+    <script>
+        window.addEventListener('load',  ()=>{
+            let slider = document.getElementById('slider')
+            let imgenes = [];
+            imgenes[0] = 'img/1.jpg'
+            imgenes[1] = 'img/2.jpg'
+            imgenes[2] = 'img/3.jpg'
+            imgenes[3] = 'img/4.jpg'
+
+            let indiceimg = 0;
+            function changeimg() {
+                slider.src = imgenes[indiceimg]
+
+                if (indiceimg < 3 ) {
+                    indiceimg++;
+                }else{
+                    indiceimg = 0;
+                }
+                
+            }
+
+            setInterval(changeimg, 3000)
+        })
+
+    </script>
+    
+</body>
+</html>
